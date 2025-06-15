@@ -1,0 +1,13 @@
+prefix=E:/ML Projects/virtenv/Library
+exec_prefix=E:/ML Projects/virtenv/Library
+libdir=E:/ML Projects/virtenv/Library/lib
+sharedlibdir=E:/ML Projects/virtenv/Library/lib
+includedir=E:/ML Projects/virtenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
